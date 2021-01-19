@@ -9,7 +9,7 @@ with Ada.Strings.Fixed, Ada.Text_IO, Ada.Integer_Text_IO;
 procedure Palindrome is
 	use Ada.Strings.Fixed, Ada.Text_IO, Ada.integer_Text_IO;
 			
-	-- how to define a non arbitrary string length
+	-- non-arbitrary string length
 	Str: String(1 .. 10000);
 	Last, Temp, Flag: Integer;
 	
