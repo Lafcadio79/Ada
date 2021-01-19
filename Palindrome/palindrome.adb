@@ -24,7 +24,7 @@ begin
 		Get_Line(Str, Last);
 		exit when Last = 0; -- loop guard (exit condition)
 		New_Line;
-		-- how to concatenate a string and integers
+		-- how to concatenate strings and integers
 		Put("Text: " & Str(1 .. Last));
 		New_Line;
 		Put("Length: " & Ada.Strings.Fixed.Trim(Integer'Image(Last), Ada.Strings.Left));
