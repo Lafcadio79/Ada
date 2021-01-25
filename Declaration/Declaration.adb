@@ -16,9 +16,10 @@ begin
 	Put_line(A'Image);
 	
 	declare
-		J: Float := 123.2;
+		J: Float := 0.0;          -- declaration here
 		
 		begin
+			j := 123.2;       -- statement here
 			Put_Line(J'Image);
 			
 		end;
