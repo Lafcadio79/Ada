@@ -27,7 +27,7 @@ procedure Main is
 	-- An array can be declared as constant in which case an initial value is mandatory
 	Work_Day : constant array(Workday) of Boolean := (True, True, True, True, True); 
 
-	-- The arrays introduced so far do not have an explicit type name. Here's an example of type named array
+	-- The arrays introduced so far do not have an explicit type name. Here's an example of type name array declaration
 	type Vector_10 is array (1 .. 10) of Integer;
 	
 	-- Sometimes could be useful declare non arbitrary bounded arrays.
