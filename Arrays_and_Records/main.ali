@@ -1,0 +1,103 @@
+V "GNAT Lib v2020"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+
+U main%b		main.adb		c66f4635 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-inteio.ads		20200228061810 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200228061810 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D main.adb		20210126172316 9ed01afc main%b
+D system.ads		20200228061810 32a08138 system%s
+D s-conca2.ads		20200228061810 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-imgint.ads		20200228061810 02dbe0c2 system.img_int%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 12 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|10r6 10r19 13r13 13r26
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 12|10w23 13r30
+X 7 a-textio.ads
+57K13*Text_IO 727e16 12|10w10 13r17
+264U14*New_Line 12|75s17 87s17 100s33 108s17 121s17 135s25 138s17 145s25
+. 148s17 155s25
+465U14*Put 12|82s33 91s25 104s41 116s41
+X 8 a-tiinio.ads
+80U14*Put 12|133s33[3|18] 143s33[3|18] 153s33[3|18]
+X 12 main.adb
+12U11*Main 12b11 160l5 160t9
+15E14 Weekday 15e61 17r28 26r30 78r26
+15n26 Mon{15E14} 15r83 17r42
+15n31 Tue{15E14}
+15n36 Wed{15E14}
+15n41 Thu{15E14}
+15n46 Fri{15E14} 17r49
+15n51 Sat{15E14}
+15n56 Sun{15E14}
+17E17 Workday{15E14} 28r35
+20a9 Arr(float) 64r31 65m25
+22a9 Arr_2D(float) 69r26 70r34 71m33
+24a9 Arr_Exp(integer) 90r26 91r29
+26a9 Hours_Worked(float) 79m25
+28a9 Work_Day(boolean)
+31A14 Vector_10(integer)<integer> 97r36
+37A14 Vector(integer)<integer> 112r30
+40A14 Matrix(integer)<integer><integer> 42r29 53r37
+42A17 Matrix_5{40A14}<integer><integer> 49r14
+44A14 Default_Matrix(integer)<integer><integer> 46r30
+46A17 Matrix_10{44A14}<integer><integer> 50r15
+49a9 M5{42A17} 124r26 125r34 126m33 131r26 132r34 133r37
+50a9 M10{46A17} 141r26 142r34 143r37
+53a9 Aggregate_Unit_3{40A14} 151r26 152r34 153r37
+56f9 Hours{float} 80m25 80r34 81r28
+64i21 I{integer} 65r29
+69i21 I{integer} 71r40
+70i29 J{integer} 71r43
+78e21 I{15E14} 79r38
+90i21 E{integer} 91r37
+97a25 Arr_Type{31A14} 103r42 104r45
+103i37 I{integer} 104r54
+112a25 V1{37A14} 115r42 116r45
+115i37 I{integer} 116r48
+124i21 I{integer} 126r36 126r45
+125i29 J{integer} 126r39 126r49
+131i21 I{integer} 133r40
+132i29 J{integer} 133r43
+141i21 I{integer} 143r41
+142i29 J{integer} 143r44
+151i21 I{integer} 153r54
+152i29 J{integer} 153r56
+
