@@ -100,7 +100,7 @@ procedure Main is
 		New_Line;
 
 		-- goto statement (just if you like spaghetti :))
-		-- In order to ut us off using gotos and labels the notation for a label is unusual and stands out like a sore thumb.
+		-- In order to put us off using gotos and labels the notation for a label is unusual and stands out like a sore thumb.
 		-- A label is an identifier enclosed in double angled brackets thus <<This_is_a_label>>, and the goto statement takes
 		-- the expected form of the reserved word "goto" followd by the label identifier and semicolon
 				
