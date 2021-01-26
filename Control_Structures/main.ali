@@ -1,0 +1,77 @@
+V "GNAT Lib v2020"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U main%b		main.adb		c5714f8f NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D main.adb		20210126140258 6b859ae2 main%b
+D system.ads		20200228061810 32a08138 system%s
+D s-conca2.ads		20200228061810 02a0d7d0 system.concat_2%s
+D s-conca5.ads		20200228061810 875e432e system.concat_5%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-imenne.ads		20200228061810 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20200228061810 02dbe0c2 system.img_int%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 10 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|8r6 11r13
+X 6 a-textio.ads
+57K13*Text_IO 727e16 10|8w10 11r17
+264U14*New_Line 10|51s17 60s17 68s17 76s17 83s17 100s17
+465U14*Put 10|47s25 56s25 64s25 73s25 80s25
+508U14*Put_Line 10|24s25 26s25 28s25 30s25 36s40 37s40 38s40 39s40 40s40
+. 93s41 108s25
+X 10 main.adb
+10U11*Main 10b11 117l5 117t9
+13E14 Order 13e47 17r22 79r34
+13n24 Left{13E14} 36r30 79r46
+13n30 Right{13E14} 37r30
+13n37 Back{13E14} 38r30
+13n43 On{13E14} 13r69 39r30 79r54
+15b9 Hungry{boolean} 23r20 25r23 27r36
+16b9 Free{boolean} 23r31 25r38 27r23
+17e9 Test_Order{13E14} 35r22
+18i9 I{integer} 46r28 47r29 48m25 48r30 55r35 56r29 57m25 57r30
+19i9 I_While{integer} 63r23 64r29 65m25 65r36
+20i9 N_For{integer} 72r35 91r39 107r23 108r54 109m25 109r34 110r28
+72i21 I_For{integer} 73r29
+79e21 O{13E14} 80r29
+89l17 Search 94r46 97l26 97e32
+90i21 J{integer} 92r46 93r68
+91i29 K{integer} 92r36 93r92
+115L19 This_is_a_label 111r38
+
