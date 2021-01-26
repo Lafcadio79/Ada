@@ -4,8 +4,8 @@
 -- |                                                          |
 -- -----------------------------------------------------------
 
--- Note that the following are all examples, that is why in some print statements are passed bare values 
--- and in others just their images. It doesn't mind the result, what matters are just the appropriate statements and structures 
+-- Note that the following are all tests, that is why in some print statements are passed bare values 
+-- and in others just their images. It doesn't mind the result, what matters is just the appropriate statement and structure 
 
 with Ada.Text_IO, Ada.Integer_Text_IO; 
 
@@ -48,6 +48,9 @@ procedure Main is
 	-- and then
 	M5 : Matrix_5;
 	M10 : Matrix_10;
+	
+	-- another possibility is to declare named aggregates
+	Aggregate_Unit_3 : constant Matrix := (1 => (1 => 12, 2 => 45, 3 => 77), 2 => (1 => 24, 2 => 90, 3 => 154), 3 => (1 => 36, 2 => 125, 3 => 231));
 	
 	-- other variables
 	Hours : Float := 0.0;
@@ -142,4 +145,14 @@ procedure Main is
 			New_Line;
 		end loop;
 
+		New_Line(2);
+		
+		-- print the aggregate matrix already initialised
+		for I in Aggregate_Unit_3'Range(1) loop
+			for J in Aggregate_Unit_3'Range(2) loop
+				Put(Aggregate_Unit_3(I,J), 4);
+			end loop;
+			New_Line;
+		end loop;
+			
 end Main;
