@@ -1,20 +1,17 @@
 -- -----------------------------------------------------------
 -- |                                                          |
--- |             The body package with a function             |
+-- |           The body package with silly function           |
 -- |                                                          |
 -- -----------------------------------------------------------
 
-
 package body New_Type is
-
-
-function Print_Colour (Col: Colour) return Colour is
-	MyColour : Colour;
-	begin
-		MyColour := Red;
-	return MyColour;
-end Print_Colour;
-
+	
+	function Random_Month (Mon: Month) return Month is
+		
+		begin
+			return (Mon);
+		
+	end Random_Month;
+			
 end New_Type;
-
 
