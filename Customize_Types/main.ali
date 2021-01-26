@@ -3,32 +3,44 @@ M P W=b
 P ZX
 
 RN
+RV NO_FLOATING_POINT
 RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
 
-U main%b		main.adb		05bda465 NE OO SU
+U main%b		main.adb		fe0dd6f5 NE OO SU
 W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 Z interfaces%s		interfac.ads		interfac.ali
 W new_type%s		new_type.adb		new_type.ali
 Z system%s		system.ads		system.ali
+Z system.img_bool%s	s-imgboo.adb		s-imgboo.ali
 Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
 
 D ada.ads		20200228061810 76789da1 ada%s
 D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-flteio.ads		20200228061810 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20200228061810 f64b89a4 ada.integer_text_io%s
 D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
 D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
 D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
 D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-tiflio.ads		20200228061810 bf196650 ada.text_io.float_io%s
+D a-tiinio.ads		20200228061810 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20200228061810 5ab55268 interfaces%s
 D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
-D main.adb		20210123115646 e7d38ead main%b
-D new_type.ads		20210123115734 4c9affa5 new_type%s
+D main.adb		20210126100718 d69af463 main%b
+D new_type.ads		20210126100740 91a239ff new_type%s
 D system.ads		20200228061810 32a08138 system%s
 D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
 D s-exctab.ads		20200228061810 54135002 system.exception_table%s
 D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-imgboo.ads		20200228061810 f5d971eb system.img_bool%s
 D s-imenne.ads		20200228061810 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20200228061810 02dbe0c2 system.img_int%s
 D s-parame.ads		20200228061810 4752c4cb system.parameters%s
 D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
 D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
@@ -39,19 +51,37 @@ D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
 D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
 G a e
-G c Z b b [main standard 10 11 none]
-G r c none [main standard 10 11 none] [print_colour new_type 11 10 none]
+G c Z b b [main standard 11 11 none]
 X 1 ada.ads
-16K9*Ada 20e8 10|8r6 8r23
-X 6 a-textio.ads
-57K13*Text_IO 727e16 10|8w10 8r27
-465U14*Put 10|15s9
-X 10 main.adb
-10U11*Main 10b11 17l5 17t9
-11e9 My{11|9E10} 13m9 15r13
-X 11 new_type.ads
-7K9*New_Type 10|7w6 7r20 11|13e13
-9E10*Colour 10|11r13 11|9e39
-9n21*Red{9E10} 10|13r28
-11V10*Print_Colour{9E10} 10|13s15
+16K9*Ada 20e8 14|8r6 8r19 8r38 12r13 12r26 12r45
+X 3 a-flteio.ads
+20K13*Float_Text_IO[9|46] 14|8w23 12r30
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[10|46] 14|8w42 12r49
+X 8 a-textio.ads
+57K13*Text_IO 727e16 14|8w10 12r17
+508U14*Put_Line 14|24s17 26s17 28s17 30s17 32s17 35s25 38s17 40s17
+X 9 a-tiflio.ads
+82U14*Put 14|42s17[3|20]
+X 14 main.adb
+11U11*Main 11b11 44l5 44t9
+15f9 PI{float} 42r27
+16i9 A{integer} 24r26
+17e9 M{15|16E10} 22m17 32r26
+18e9 WS{15|25E14} 34r20 35r34
+19e9 Def_Col{15|20E14} 38r26
+20b9 B{boolean} 40r26
+X 15 new_type.ads
+13K9*New_Type 14|9w6 13r13 15|36e13
+16E10*Month 14|17r14 15|16e79
+16n35*Apr{16E10} 14|22r22
+18E14*Weekday 14|26r26 15|18e60
+20E14*Colour 14|19r18 28r26 28r38 15|20e44
+20n25*Green{20E14} 14|20r37
+20n32*Amber{20E14} 14|20r24
+20n39*Red{20E14} 14|20r46
+23E14*Stone 14|30r26 15|23e45
+23n38*Quartz{23E14} 14|30r37
+25E14*Wheel_State 14|18r14 15|25e39
+25n30*Up{25E14} 14|18r29 34r25
 
