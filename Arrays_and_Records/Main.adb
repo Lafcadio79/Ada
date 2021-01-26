@@ -154,5 +154,8 @@ procedure Main is
 			end loop;
 			New_Line;
 		end loop;
-			
+	
+	
+	-- Record examples will be here as soon as possible!
+	
 end Main;
