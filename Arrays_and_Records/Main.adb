@@ -5,7 +5,7 @@
 -- -----------------------------------------------------------
 
 -- Note that the following are all examples, that is why in some print statements are passed bare values 
--- and in others just their images. It doesn't mind the result, what matters are just appropriate declarations and structures 
+-- and in others just their images. It doesn't mind the result, what matters are just the appropriate statements and structures 
 
 with Ada.Text_IO, Ada.Integer_Text_IO; 
 
