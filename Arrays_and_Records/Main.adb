@@ -30,22 +30,27 @@ procedure Main is
 	-- The arrays introduced so far do not have an explicit type name. Here's an example of type name array declaration
 	type Vector_10 is array (1 .. 10) of Integer;
 	
-	-- Sometimes could be useful declare non arbitrary bounded arrays.
-	-- In such cases Ada allows the declaration of unconstrained arrays.
+	-- Sometimes could be useful to declare a non arbitrary bounded array.
+	-- In such case Ada allows the declaration of unconstrained arrays.
 	-- The following example shows the declaration of a one-dimensional array of Float components with an Integer index
-	-- The compund symbol <> is read as 'box'
+	-- (the compund symbol <> is read as 'box')
 	type Vector is array(Integer range <>) of Integer;
 	
 	-- Another useful type declaration is
 	type Matrix is array(Integer range <>, Integer range <>) of Integer;
 	-- that allows to introduce subtypes as
 	subtype Matrix_5 is Matrix(1 .. 5, 1 .. 5);
+	-- or it is also possible declare a new type with default component values in this way
+	type Default_Matrix is array(1 .. 10, 1 .. 10) of Integer with Default_Component_Value => 9;
+	-- and its subtype as
+	subtype Matrix_10 is Default_Matrix;
+
 	-- and then
 	M5 : Matrix_5;
+	M10 : Matrix_10;
 	
 	-- other variables
 	Hours : Float := 0.0;
-	I_While : Integer := 15;
 	begin
 		
 		-- if the following expressions have values outside the bounds of the array range,
@@ -126,5 +131,15 @@ procedure Main is
 			end loop;
 			New_Line;
 		end loop;
+
+		New_Line(2);
 		
+		-- and now print the 10x10 subtype matrix with default component values
+		for I in M10'Range(1) loop
+			for J in M10'Range(2) loop
+				Put(M10(I, J), 3);
+			end loop;
+			New_Line;
+		end loop;
+
 end Main;
