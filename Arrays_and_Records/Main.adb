@@ -6,6 +6,7 @@
 
 -- Note that the following are all tests, that is why in some print statements are passed bare values 
 -- and in others just their images. It doesn't mind the result, what matters is just the appropriate statement and its structure 
+-- records are very important components in Ada, as well as arrays data structures
 
 with Ada.Text_IO, Ada.Integer_Text_IO, Ada.Strings.Unbounded;
 procedure Main is
