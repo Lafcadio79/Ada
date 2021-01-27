@@ -1,0 +1,54 @@
+V "GNAT Lib v2020"
+P ZX
+
+RN
+
+U new_type%b		new_type.adb		2559e64b NE OO PK
+
+U new_type%s		new_type.ads		91a239ff EE NE OO PK
+
+D new_type.ads		20210127153230 91a239ff new_type%s
+D new_type.adb		20210127153230 b4fbdfb4 new_type%b
+D system.ads		20200228061810 32a08138 system%s
+G a e
+G c Z s b [random_month new_type 40 18 none]
+X 1 new_type.ads
+18K9*New_Type 42l5 42e13 2|7b14 16l5 16t13
+21E14*Month 21e83 40r37 40r51 2|9r37 9r51
+21n24*Jan{21E14}
+21n29*Feb{21E14}
+21n34*Mar{21E14}
+21n39*Apr{21E14}
+21n44*May{21E14}
+21n49*Jun{21E14}
+21n54*Jul{21E14}
+21n59*Aug{21E14}
+21n64*Sep{21E14}
+21n69*Oct{21E14}
+21n74*Nov{21E14}
+21n79*Dec{21E14}
+23E14*Weekday 23e60
+23n26*Mon{23E14}
+23n31*Tue{23E14}
+23n36*Wed{23E14}
+23n41*Thu{23E14}
+23n46*Fri{23E14}
+23n51*Sat{23E14}
+23n56*Sun{23E14}
+25E14*Colour 25e44
+25n25*Green{25E14} 25r66
+25n32*Amber{25E14}
+25n39*Red{25E14}
+28E14*Stone 28e45
+28n24*Amber{28E14}
+28n31*Beryl{28E14}
+28n38*Quartz{28E14}
+30E14*Wheel_State 30e39
+30n30*Up{30E14}
+30n34*Down{30E14}
+33I17*Day_Number{integer} 35r30 37r28
+35I17*Leap_Year{33I17}
+37I17*Feb_Day{33I17}
+40V18*Random_Month{21E14} 40>32 2|9b18 14l13 14t25
+40e32 Mon{21E14} 2|9b32 12r33
+
