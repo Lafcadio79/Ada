@@ -16,7 +16,7 @@ procedure Main is
 	type Weekday is (Mon, Tue, Wed, Thu, Fri, Sat, Sun) with Default_Value => Mon;
 	-- and the possibility to define subtypes made up of the defined types
 	subtype Workday is Weekday range Mon .. Fri;
-	-- there's aldo possible to declare an enumeration type in which some or all values are represented by character literals
+	-- there's also possible to declare an enumeration type in which some or all values are represented by character literals
 	type Roman_Digits is ('I', 'V', 'X', 'L', 'C', 'D', 'M');
 	
 	
