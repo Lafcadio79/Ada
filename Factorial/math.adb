@@ -1,5 +1,12 @@
+-- -----------------------------------------------------------
+-- |                                                          |
+-- |        The body package with the defined function        |
+-- |                                                          |
+-- -----------------------------------------------------------
+
 package body math is
 
+-- the most known recursive function ever
 function Factorial(N: Positive) return Positive is
 
 begin
