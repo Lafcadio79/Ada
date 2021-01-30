@@ -1,0 +1,20 @@
+V "GNAT Lib v2020"
+P ZX
+
+RN
+RV NO_RECURSION
+
+U math%b		math.adb		c14b3dc5 NE OO PK IL
+
+U math%s		math.ads		9fd400e3 EE NE OO PK IL
+
+D math.ads		20210130145254 9fd400e3 math%s
+D math.adb		20210130145534 5e9f3d26 math%b
+D system.ads		20200228061810 32a08138 system%s
+G a e
+G c Z s b [factorial math 3 10 none]
+X 1 math.ads
+1K9*math 5l5 5e9 2|1b14 14l5 14t9
+3V10*Factorial{positive} 3>20 2|3b10 9s28 12l5 12t14
+3i20 N{positive} 2|3b20 6r12 9r24 9r38
+
