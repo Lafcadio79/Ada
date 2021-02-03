@@ -1,3 +1,11 @@
+-- -----------------------------------------------------------
+-- |                                                          |
+-- |   A procedure that asks you for a string by the stdin    |
+-- |            and returns a message on the stdout           |
+-- |                                                          | 
+-- -----------------------------------------------------------
+
+
 with Ada.Strings;
 with Ada.Text_IO;
 with Ada.Command_Line;
