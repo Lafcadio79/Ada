@@ -9,7 +9,7 @@ RV NO_FLOATING_POINT
 RV NO_IO
 RV NO_DYNAMIC_SIZED_OBJECTS
 
-U main%b		main.adb		8b8dde4d NE OO SU
+U main%b		main.adb		3ec006e4 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
@@ -31,7 +31,7 @@ D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
 D calculator.ads	20210206210148 4c11b697 calculator%s
 D interfac.ads		20200228061810 5ab55268 interfaces%s
 D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
-D main.adb		20210207095442 7b832b77 main%b
+D main.adb		20210207100256 cecef3de main%b
 D system.ads		20200228061810 32a08138 system%s
 D s-conca2.ads		20200228061810 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
@@ -49,38 +49,38 @@ D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
 D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
 G a e
-G c Z b b [main standard 6 11 none]
-G r c none [main standard 6 11 none] [sum calculator 4 18 none]
-G r c none [main standard 6 11 none] [sub calculator 5 18 none]
-G r c none [main standard 6 11 none] [mul calculator 6 18 none]
-G r c none [main standard 6 11 none] [div calculator 8 18 none]
-G r c none [main standard 6 11 none] [pow calculator 7 18 none]
+G c Z b b [main standard 18 11 none]
+G r c none [main standard 18 11 none] [sum calculator 4 18 none]
+G r c none [main standard 18 11 none] [sub calculator 5 18 none]
+G r c none [main standard 18 11 none] [mul calculator 6 18 none]
+G r c none [main standard 18 11 none] [div calculator 8 18 none]
+G r c none [main standard 18 11 none] [pow calculator 7 18 none]
 X 1 ada.ads
-16K9*Ada 20e8 13|2r6 3r6 4r6 8r13 9r13 10r13 49r38
+16K9*Ada 20e8 13|14r6 15r6 16r6 20r13 21r13 22r13 61r38
 X 3 a-inteio.ads
-18K13*Integer_Text_IO[8|46] 13|3w10 9r17
+18K13*Integer_Text_IO[8|46] 13|15w10 21r17
 X 4 a-ioexce.ads
-18K13*IO_Exceptions 30e22 13|4w10 10r17 49r42
-27X4*Data_Error 13|49r56
+18K13*IO_Exceptions 30e22 13|16w10 22r17 61r42
+27X4*Data_Error 13|61r56
 X 7 a-textio.ads
-57K13*Text_IO 727e16 13|2w10 8r17
-381U14*Get 13|44s25
-465U14*Put 13|31s25
-508U14*Put_Line 13|25s25 26s25 27s25 28s25 29s25 30s25 36s43 37s43 38s43
-. 39s43 40s43 41s48 43s25 50s41 52s17
+57K13*Text_IO 727e16 13|14w10 20r17
+381U14*Get 13|56s25
+465U14*Put 13|43s25
+508U14*Put_Line 13|37s25 38s25 39s25 40s25 41s25 42s25 48s43 49s43 50s43
+. 51s43 52s43 53s48 55s25 62s41 64s17
 X 8 a-tiinio.ads
-59U14*Get 13|30s47[3|18] 32s25[3|18] 33s25[3|18]
+59U14*Get 13|42s47[3|18] 44s25[3|18] 45s25[3|18]
 X 10 calculator.ads
-2K9*Calculator 10e15 13|1w6 7r13
-4V18*sum{integer} 13|36s65
-5V18*sub{integer} 13|37s65
-6V18*mul{integer} 13|38s65
-7V18*pow{float} 13|40s65
-8V18*div{float} 13|39s65
+2K9*Calculator 10e15 13|13w6 19r13
+4V18*sum{integer} 13|48s65
+5V18*sub{integer} 13|49s65
+6V18*mul{integer} 13|50s65
+7V18*pow{float} 13|52s65
+8V18*div{float} 13|51s65
 X 13 main.adb
-6U11*Main 6b11 54l5 54t9
-12i9 a{integer} 32m29 36r69 37r69 38r69 39r69 40r69
-13i9 b{integer} 33m29 36r71 37r71 38r71 39r71 40r71
-14e9 c{character} 22r15 44m29
-15i9 v{integer} 30m51 35r30
+18U11*Main 18b11 66l5 66t9
+24i9 a{integer} 44m29 48r69 49r69 50r69 51r69 52r69
+25i9 b{integer} 45m29 48r71 49r71 50r71 51r71 52r71
+26e9 c{character} 34r15 56m29
+27i9 v{integer} 42m51 47r30
 
