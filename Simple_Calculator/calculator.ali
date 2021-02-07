@@ -1,0 +1,39 @@
+V "GNAT Lib v2020"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+
+U calculator%b		calculator.adb		4326df80 NE OO PK
+Z system.exp_int%s	s-expint.adb		s-expint.ali
+
+U calculator%s		calculator.ads		4c11b697 EE NE OO PK
+
+D calculator.ads	20210206210148 4c11b697 calculator%s
+D calculator.adb	20210206210400 0f376917 calculator%b
+D system.ads		20200228061810 32a08138 system%s
+D s-expint.ads		20200228061810 192336fc system.exp_int%s
+G a e
+G c Z s b [sum calculator 4 18 none]
+G c Z s b [sub calculator 5 18 none]
+G c Z s b [mul calculator 6 18 none]
+G c Z s b [pow calculator 7 18 none]
+G c Z s b [div calculator 8 18 none]
+X 1 calculator.ads
+2K9*Calculator 10l5 10e15 2|4b14 44l5 44t15
+4V18*sum{integer} 4>23 4>36 2|6b18 12l13 12t16
+4i23 a{integer} 2|6b23 10r25
+4i36 b{integer} 2|6b36 10r29
+5V18*sub{integer} 5>23 5>36 2|14b18 20l13 20t16
+5i23 a{integer} 2|14b23 18r33
+5i36 b{integer} 2|14b36 18r37
+6V18*mul{integer} 6>23 6>36 2|22b18 27l13 27t16
+6i23 a{integer} 2|22b23 25r33
+6i36 b{integer} 2|22b36 25r37
+7V18*pow{float} 7>23 7>36 2|29b18 34l13 34t16
+7i23 a{integer} 2|29b23 32r39
+7i36 b{integer} 2|29b36 32r44
+8V18*div{float} 8>23 8>36 2|36b18 41l13 41t16
+8i23 a{integer} 2|36b23 39r39
+8i36 b{integer} 2|36b36 39r43
+
