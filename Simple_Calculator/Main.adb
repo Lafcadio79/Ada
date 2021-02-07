@@ -59,7 +59,7 @@ begin
 
 		exception
 				when Ada.IO_Exceptions.Data_Error =>
-					Put_Line ("Try a number from 1 to 5, Sherlock");
+					Put_Line ("The next time try a number from 1 to 5");
 
 		Put_Line("Program terminated!");
 	
