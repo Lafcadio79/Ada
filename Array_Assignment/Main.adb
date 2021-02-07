@@ -5,9 +5,11 @@
 -- -----------------------------------------------------------
 
 with Ada.Text_IO;
+with Ada.Integer_Text_IO;
 
 procedure Main is
 	use Ada.Text_IO;
+	use Ada.Integer_Text_IO;
 	
 	type Arr_Type is array (Integer range<>) of Integer;
 	
@@ -30,14 +32,14 @@ begin
 	A2(2..3) := A1(4 .. 5);
 	
 	for i in A1'Range loop
-		Put(A1(i)'Image & " ");		
+		Put(A1(i), 4);		
 	end loop;
   
 	New_Line;
   
 	-- note that the A2(0) has implicitly been initialised  
   for i in A2'Range loop
-		Put(A2(i)'Image & " ");		
+		Put(A2(i), 4);		
 	end loop;
 	
 end Main;
