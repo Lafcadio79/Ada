@@ -10,18 +10,15 @@
 with Ada.Text_IO;
 with Ada.Integer_Text_IO;
 
-procedure P is
+procedure Pos is
 	use Ada.Text_IO;
 	use Ada.Integer_Text_IO;
 	
 	V: Positive;
 begin
 	Put("Give me a value: ");
-	
-  Get(V);
-	
-  Put_Line("Value assigned: " & V'Image);
-  
+	Get(V);
+	Put_Line("Value assigned: " & V'Image);
 	exception
 		when CONSTRAINT_ERROR =>
 			Put_Line("CONSTRAINT_ERROR managed");
@@ -29,4 +26,4 @@ begin
 		when others =>
 			Put_Line("unknown error");
 	
-end P;
+end Pos;
