@@ -1,0 +1,135 @@
+V "GNAT Lib v2020"
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U triangles%b		triangles.adb		afe3c1c7 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+U triangles%s		triangles.ads		49c37477 EE NE OO PK
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-flteio.ads		20200228061810 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200228061810 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20200228061810 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20200228061810 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-tiflio.ads		20200228061810 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D system.ads		20200228061810 32a08138 system%s
+D s-conca2.ads		20200228061810 02a0d7d0 system.concat_2%s
+D s-conca4.ads		20200228061810 7e642b20 system.concat_4%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-imenne.ads		20200228061810 614c06c0 system.img_enum_new%s
+D s-imgrea.ads		20200228061810 9f9b9792 system.img_real%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+D triangles.ads		20210221164254 49c37477 triangles%s
+D triangles.adb		20210221164854 aab61a61 triangles%b
+G a e
+G c Z s b [triangle_perimeter triangles 27 13 none]
+G c Z s b [triangle_semiperimeter triangles 29 13 none]
+G c Z s b [triangle_area triangles 31 13 none]
+G c Z s b [triangle_heights triangles 33 13 none]
+G c Z s b [triangle_area_from_height triangles 35 13 none]
+G c Z s b [triangle_medians triangles 37 13 none]
+G c Z s b [triangle_check triangles 39 13 none]
+G c Z s b [display_triangle triangles 45 19 none]
+G c Z s s [TanglesBIP triangles 6 4 none]
+G c Z s s [TsidesBIP triangles 8 4 none]
+G c Z s s [TheightsBIP triangles 10 4 none]
+G c Z s s [TmediansBIP triangles 12 4 none]
+G c Z s s [triangleIP triangles 18 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 33|1r6 2r6 3r6 7r8 8r8 9r8
+X 3 a-flteio.ads
+20K13*Float_Text_IO[11|46] 33|2w10 8r12
+X 5 a-numeri.ads
+16K13*Numerics 32e17 33|3r10 9r12
+X 6 a-nuelfu.ads
+18K22*Elementary_Functions[7|39] 33|3w19 9r21
+X 7 a-ngelfu.ads
+52V13*Sqrt{float} 33|39s15[6|18] 66s22[6|18] 67s22[6|18] 68s22[6|18]
+86V14*"**"{float} 33|61s31[6|18] 62s31[6|18] 63s31[6|18]
+X 10 a-textio.ads
+57K13*Text_IO 727e16 33|1w10 7r12
+264U14*New_Line 33|115s7
+508U14*Put_Line 33|116s7 117s7 118s7 119s7 120s7 121s7 122s7 123s7 124s7
+. 125s7 126s7 127s7
+X 32 triangles.ads
+1K9*Triangles 47l5 47e14 33|5b14 131l5 131t14
+4E9*TriangleType 4e72 39r49 33|90r49
+4n26*Equilateral{4E9} 33|95r17
+4n39*Isosceles{4E9} 33|99r17
+4n50*Scalene{4E9} 33|97r17
+4n59*Right_angled{4E9}
+6A9*Angles(float)<integer> 20r15
+8A9*Sides(float)<integer> 19r15
+10A9*Heights(float)<integer> 33r51 33|43r51 46r12 77r12 111r12
+12A9*Medians(float)<integer> 37r51 33|58r51 60r12 112r12
+18R9*Triangle 21e14 27r36 29r40 31r31 33r34 35r43 37r34 39r32 45r40 33|16r37
+. 25r41 34r32 43r34 58r34 75r44 90r32 109r35
+19a7*Side{8A9} 33|21r16 21r28 21r40 39r33 39r52 39r71 50r26 61r23 62r23 63r23
+. 79r12 80r27 81r15 82r27 84r27 94r12 94r24 94r38 94r50 96r19 96r32 96r46
+. 96r59 117r53 117r78 117r103
+20a7*Angle{6A9} 33|118r53 118r79 118r105
+27V13*Triangle_Perimeter{float} 27>32 33|16b13 23l8 23t26 26s21 36s21 120s39
+27r32 T{18R9} 33|16b33 21r14 21r26 21r38
+29V13*Triangle_SemiPerimeter{float} 29>36 33|25b13 31l8 31t30 121s39
+29r36 T{18R9} 33|25b37 26r40
+31V13*Triangle_Area{float} 31>27 33|34b13 41l8 41t21 45s27 119s39
+31r27 T{18R9} 33|34b28 36r40 39r31 39r50 39r69
+33V13*Triangle_Heights{10A9} 33>30 33|43b13 55l8 55t24 77s23 111s23
+33r30 T{18R9} 33|43b30 45r41 50r24
+35V13*Triangle_Area_from_Height{float} 35>39 33|75b13 87l8 87t33
+35r39 T{18R9} 33|75b40 77r40 79r10 80r25 81r13 82r25 84r25
+37V13*Triangle_Medians{12A9} 37>30 33|58b13 72l8 72t24 112s23
+37r30 T{18R9} 33|58b30 61r21 62r21 63r21
+39V13*Triangle_Check{4E9} 39>28 33|90b13 102l8 102t22 116s39
+39r28 T{18R9} 33|90b28 94r10 94r22 94r36 94r48 96r17 96r30 96r44 96r57
+45U19*Display_Triangle 45>36 33|109b14 129l8 129t24
+45r36 T{18R9} 33|109b31 111r40 112r40 116r54 117r51 117r76 117r101 118r51
+. 118r77 118r103 119r53 120r58 121r62
+X 33 triangles.adb
+26f7 Tp{float} 29r14
+36f7 sp{float} 39r20 39r26 39r45 39r64
+45f7 DA{float} 50r19
+46a7 Hs{32|10A9} 50m10 53r14
+49i11 i{integer} 50r13 50r31
+60a7 Ms{32|12A9} 66m7 67m7 68m7 70r14
+61f7 AB{float} 66r34 67r34 68r45
+62f7 BC{float} 66r45 67r39 68r34
+63f7 AC{float} 66r39 67r45 68r39
+77a7 Hs{32|10A9} 80r17 82r17 84r17
+111a7 Hs{32|10A9} 122r39 123r39 124r39
+112a7 Ms{32|12A9} 125r39 126r39 127r39
+
