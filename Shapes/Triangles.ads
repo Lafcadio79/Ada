@@ -39,9 +39,9 @@ package Triangles is
    function Triangle_Check(T : Triangle) return TriangleType;
    
    --------------------------
-	-- Procedure signatures --
-	--------------------------
+   -- Procedure signatures --
+   --------------------------
 	
-	procedure Display_Triangle(T : Triangle);
+   procedure Display_Triangle(T : Triangle);
 
 end Triangles;
