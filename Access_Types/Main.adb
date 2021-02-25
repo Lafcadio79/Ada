@@ -14,7 +14,8 @@ procedure Main is
 	use Ada.Float_Text_IO;
 
 	T1 : Triangle := (Next => null, Side => (2.1, 2.1, 3.1));
-	
+
+	-- Access type, pointer of the Triangle type 
 	T2 : Triangle_Ptr;
 begin
 
