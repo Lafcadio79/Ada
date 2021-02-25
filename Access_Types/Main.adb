@@ -15,7 +15,7 @@ procedure Main is
 
 	T1 : Triangle := (Next => null, Side => (2.1, 2.1, 3.1));
 
-	-- Access type, pointer of the Triangle type 
+	-- Access type, pointer to the type Triangle 
 	T2 : Triangle_Ptr;
 begin
 
@@ -24,7 +24,7 @@ begin
 	
 	-- print Kind  		:  ISOSCELES
 	--       Sides 		:  2.10000E+00 2.10000E+00 3.10000E+00
-    --       Perimeter  :  7.30000E+00
+    	--       Perimeter 	:  7.30000E+00
 	Display_Triangle(T1);
 
 	New_Line;
