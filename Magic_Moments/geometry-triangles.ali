@@ -1,0 +1,86 @@
+V "GNAT Lib v2020"
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_ELABORATION_CODE
+
+U geometry.triangles%b	geometry-triangles.adb	667cb703 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W geometry%s		geometry.adb		geometry.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U geometry.triangles%s	geometry-triangles.ads	f4d8f48d EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W geometry%s		geometry.adb		geometry.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-numeri.ads		20200228061810 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20200228061810 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20200228061810 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D geometry.ads		20210309083850 ab836eb5 geometry%s
+D geometry-triangles.ads  20210309135258 5f5b9a38 geometry.triangles%s
+D geometry-triangles.adb  20210309092628 3acf1027 geometry.triangles%b
+D system.ads		20200228061810 32a08138 system%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20200228061810 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20200424050626 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+G a e
+G c Z s b [area geometry__triangles 8 12 none]
+G c Z s b [mi geometry__triangles 9 12 none]
+G c Z s b [name geometry__triangles 10 12 none]
+G c Z s s [triangleDA geometry__triangles 3 8 none]
+G c Z s s [triangleDF geometry__triangles 3 8 none]
+G c Z s s [triangleIP geometry__triangles 3 8 none]
+G r s object [triangleIP geometry__triangles 3 8 none] [objectIP geometry 2 8 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 4r7
+X 3 a-numeri.ads
+16K13*Numerics 32e17 11|1r10 4r11
+X 4 a-nuelfu.ads
+18K22*Elementary_Functions[5|39] 11|1w19 4r20
+X 5 a-ngelfu.ads
+52V13*Sqrt{float} 11|9s12[4|18]
+X 9 geometry.ads
+1K9*Geometry 13e13 10|1r9 12r5 11|3r14 22r5
+2H8*Object 6e15 10|3r24
+8V12*Distance{float}
+X 10 geometry-triangles.ads
+1K18*Triangles 9|1k9 10|12l14 12e23 11|3b23 22l14 22t23
+3R8*Triangle<9|2R8> 9|8p12 10|6e15 8P12 8r20 9P12 9r19 10P12 10r20 11|6r20
+. 12r18 17r20
+5f9*A{float} 11|7r35 9r26 14r24
+5f12*B{float} 11|7r41 9r34 14r33
+5f15*C{float} 11|7r47 9r42 14r42
+8V12*Area{float}<9|9p12> 8>17 11|6b12 10l7 10t11 14s14
+8r17 T{3R8} 11|6b17 7r33 7r39 7r45 9r24 9r32 9r40
+9V12*MI{float}<9|10p12> 9>16 11|12b12 15l7 15t9
+9r16 T{3R8} 11|12b15 14r12 14r22 14r31 14r40
+10V12*Name{string}<9|11p12> 10>17 11|17b12 20l7 20t11
+10r17 T{3R8} 11|17b17
+X 11 geometry-triangles.adb
+7f5 S{float} 9r17 9r22 9r30 9r38
+

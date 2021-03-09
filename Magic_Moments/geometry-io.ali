@@ -1,0 +1,115 @@
+V "GNAT Lib v2020"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+
+U geometry.io%b		geometry-io.adb		03ba592b NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W geometry%s		geometry.adb		geometry.ali
+W geometry.circles%s	geometry-circles.adb	geometry-circles.ali
+W geometry.squares%s	geometry-squares.adb	geometry-squares.ali
+W geometry.triangles%s	geometry-triangles.adb	geometry-triangles.ali
+Z system%s		system.ads		system.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U geometry.io%s		geometry-io.ads		e7390755 EE NE OO PK
+W geometry%s		geometry.adb		geometry.ali
+W geometry.lists%s	geometry-lists.adb	geometry-lists.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-finali.ads		20200228061810 bf4f806b ada.finalization%s
+D a-flteio.ads		20200228061810 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-tiflio.ads		20200228061810 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D geometry.ads		20210309083850 ab836eb5 geometry%s
+D geometry-circles.ads	20210309090520 08af32ab geometry.circles%s
+D geometry-io.ads	20210309101326 c172f554 geometry.io%s
+D geometry-io.adb	20210309101352 43890961 geometry.io%b
+D geometry-lists.ads	20210309105232 8dc89cb4 geometry.lists%s
+D geometry-squares.ads	20210309094200 99cb9f40 geometry.squares%s
+D geometry-triangles.ads  20210309135258 5f5b9a38 geometry.triangles%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D system.ads		20200228061810 32a08138 system%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-finmas.ads		20200228061810 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200228061810 4ff27390 system.finalization_root%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-pooglo.ads		20200228061810 ede33ef8 system.pool_global%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20200313060448 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20200317060516 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20200424050626 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [get_circle geometry__io 5 12 none]
+G c Z s b [get_triangle geometry__io 6 12 none]
+G c Z s b [get_square geometry__io 7 12 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 2r6 9r7 10r7
+X 4 a-flteio.ads
+20K13*Float_Text_IO[9|46] 14|2w10 10r11
+X 8 a-textio.ads
+57K13*Text_IO 727e16 14|1w10 9r11
+264U14*New_Line 14|44s7
+465U14*Put 14|43s7
+X 9 a-tiflio.ads
+60U14*Get 14|20s5[4|20] 21s5[4|20] 22s5[4|20] 36s5[4|20] 37s5[4|20] 39s7[4|20]
+. 39s15[4|20] 39s23[4|20] 59s5[4|20] 60s5[4|20] 61s5[4|20]
+X 11 geometry.ads
+1K9*Geometry 13e13 13|1r6 3r9 9r5 14|4r6 5r6 6r6 8r14 67r5
+X 12 geometry-circles.ads
+1K18*Circles 12e21 14|4w15 13r9
+3R8*Circle<11|2R8> 6e15 14|24r16
+X 13 geometry-io.ads
+3K18*IO 11|1k9 13|9l14 9e16 14|8b23 67l14 67t16
+5V12*Get_Circle{15|2P8} 14|12b12 26l7 26t17
+6V12*Get_Triangle{15|2P8} 14|28b12 49l7 49t19
+7V12*Get_Square{15|2P8} 14|51b12 65l7 65t17
+X 14 geometry-io.adb
+15f5 X_Coord{float} 20m9 24r24
+16f5 Y_Coord{float} 21m9 24r33
+17f5 Radius{float} 22m9 24r42
+31f5 X_Coord{float} 36m9 47r26
+32f5 Y_Coord{float} 37m9 47r35
+33f5 A{float} 39m11 41r17 41r35 41r49 47r44
+33f8 B{float} 39m19 41r21 41r31 41r53 47r47
+33f11 C{float} 39m27 41r25 41r39 41r45 47r50
+54f5 X_Coord{float} 59m9 63r24
+55f5 Y_Coord{float} 60m9 63r33
+56f5 Side{float} 61m9 63r42
+X 15 geometry-lists.ads
+1K18*Lists 13|1w15 5r30 6r32 7r30 14|12r30 28r32 51r30 15|14e19
+2P8*Pointer(11|2R8) 13|5r36 6r38 7r36 14|12r36 28r38 51r36
+X 16 geometry-squares.ads
+1K18*Squares 14|5w15 52r9 16|12e21
+3R8*Square<11|2R8> 14|63r16 16|6e15
+X 17 geometry-triangles.ads
+1K18*Triangles 14|6w15 29r9 17|12e23
+3R8*Triangle<11|2R8> 14|47r16 17|6e15
+

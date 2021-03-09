@@ -1,0 +1,75 @@
+V "GNAT Lib v2020"
+P ZX
+
+RN
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+
+U build_list%b		build_list.adb		fd4a7656 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W geometry%s		geometry.adb		geometry.ali
+W geometry.io%s		geometry-io.adb		geometry-io.ali
+W geometry.lists%s	geometry-lists.adb	geometry-lists.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-finali.ads		20200228061810 bf4f806b ada.finalization%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D build_list.adb	20210309141842 1f04cadb build_list%b
+D geometry.ads		20210309083850 ab836eb5 geometry%s
+D geometry-io.ads	20210309101326 c172f554 geometry.io%s
+D geometry-lists.ads	20210309105232 8dc89cb4 geometry.lists%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D system.ads		20200228061810 32a08138 system%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-finmas.ads		20200228061810 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200228061810 4ff27390 system.finalization_root%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-pooglo.ads		20200228061810 ede33ef8 system.pool_global%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20200313060448 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20200424050626 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [build_list standard 5 11 none]
+G r c none [build_list standard 5 11 none] [get_circle geometry__io 5 12 none]
+G r c none [build_list standard 5 11 none] [get_triangle geometry__io 6 12 none]
+G r c none [build_list standard 5 11 none] [get_square geometry__io 7 12 none]
+G r c none [build_list standard 5 11 none] [add_to_list geometry__lists 12 15 none]
+X 1 ada.ads
+16K9*Ada 20e8 9|3r6 3r26
+X 7 a-textio.ads
+57K13*Text_IO 727e16 9|3w10 3r30
+381U14*Get 9|13s11
+X 9 build_list.adb
+5U11*Build_List 5b11 5=22 30l5 30t15
+5p22 The_List{12|10P10} 26m27
+7e3 Code_Letter{character} 13m15 14r21 16r14
+8p3 Object_Ptr{12|2P8} 18m13 20m13 22m13 26r37
+X 10 geometry.ads
+1K9*Geometry 9|1r6 1r26 2r6 2r26 10|13e13
+X 11 geometry-io.ads
+3K18*IO 9|2w15 2r35 11|9e16
+5V12*Get_Circle{12|2P8} 9|18s27
+6V12*Get_Triangle{12|2P8} 9|20s27
+7V12*Get_Square{12|2P8} 9|22s27
+X 12 geometry-lists.ads
+1K18*Lists 9|1w15 5r39 8r15 26r9 12|14e19
+2P8*Pointer(10|2R8) 9|8r21
+10P10*List 9|5r45
+12U15*Add_To_List 9|26s15
+

@@ -1,0 +1,68 @@
+V "GNAT Lib v2020"
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_ELABORATION_CODE
+
+U geometry.squares%b	geometry-squares.adb	7c39b40d OO PK
+W geometry%s		geometry.adb		geometry.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U geometry.squares%s	geometry-squares.ads	3248f1f5 EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W geometry%s		geometry.adb		geometry.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D geometry.ads		20210309083850 ab836eb5 geometry%s
+D geometry-squares.ads	20210309094200 99cb9f40 geometry.squares%s
+D geometry-squares.adb	20210309094718 e5f22b4d geometry.squares%b
+D system.ads		20200228061810 32a08138 system%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20200228061810 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20200424050626 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+G a e
+G c Z s b [area geometry__squares 8 14 none]
+G c Z s b [mi geometry__squares 9 14 none]
+G c Z s b [name geometry__squares 10 14 none]
+G c Z s s [squareDA geometry__squares 3 8 none]
+G c Z s s [squareDF geometry__squares 3 8 none]
+G c Z s s [squareIP geometry__squares 3 8 none]
+G r s object [squareIP geometry__squares 3 8 none] [objectIP geometry 2 8 none]
+X 6 geometry.ads
+1K9*Geometry 13e13 7|1r9 12r5 8|1r14 18r5
+2H8*Object 6e15 7|3r22
+8V12*Distance{float}
+X 7 geometry-squares.ads
+1K18*Squares 6|1k9 7|12l14 12e21 8|1b23 18l14 18t21
+3R8*Square<6|2R8> 6|8p12 7|6e15 8P14 8r22 9P14 9r20 10P14 10r22 8|3r20 8r18
+. 13r20
+5f7*Side{float} 8|5r14 10r24
+8V14*Area{float}<6|9p12> 8>19 8|3b12 6l7 6t11 10s15
+8r19 S{3R8} 8|3b17 5r12
+9V14*MI{float}<6|10p12> 9>17 8|8b12 11l7 11t9
+9r17 S{3R8} 8|8b15 10r13 10r22
+10V14*Name{string}<6|11p12> 10>19 8|13b12 16l7 16t11
+10r19 S{3R8} 8|13b17
+
