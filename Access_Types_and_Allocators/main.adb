@@ -1,6 +1,6 @@
 -- -----------------------------------------------------------
 -- |                                                          |
--- |                Access Types & Allocators                 |
+-- |                Access types & allocators                 |
 -- |                                                          |
 -- -----------------------------------------------------------
 
@@ -26,7 +26,7 @@ procedure Main is
 		record
 			Next:  Cell_Ptr;
 			Value: Integer;
-		end record;
+		end record;	
 	
 	-----------------
 	-- Declaration --
@@ -50,8 +50,13 @@ procedure Main is
 	-- access types can be declared as constants provided they are immediately initialised
 	C: constant Cell_Ptr := new Cell'(L3, 55);
 		
+	-- an access type can also be instantiated with a "not null" clause (e.g., type Cell_Ptr is not null access Cell;) to 
+	-- force its declaration with an initial value
+	-- such strategy is useful to prevent raising Constraint Errors but it is not very helpful while constructing a list 
+	-- because it is necessary to introduce some other technique for identifying its end	
 		
-	-- For creating a new record and adding it to the beginning of a list it is possivle to use the following statement wrapped into a general procedure
+	-- for creating a new record and adding it to the beginning of a list it is possible to use the following statement 
+	-- wrapped into a general procedure
 	procedure Add_To_List(List: in out Cell_Ptr; V: in Integer) is
 		begin
 			List := new Cell'(List, V);
