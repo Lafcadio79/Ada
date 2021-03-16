@@ -51,9 +51,11 @@ procedure Main is
 	C: constant Cell_Ptr := new Cell'(L3, 55);
 		
 	-- an access type can also be instantiated with a "not null" clause (e.g., type Cell_Ptr is not null access Cell;) to 
-	-- force its declaration with an initial value
-	-- such strategy is useful to prevent raising Constraint Errors but it is not very helpful while constructing a list 
+	-- force its declaration with an initial value. By doing so, there will be a check to ensure that the new declared access types
+	-- do not have the value null befor an assignment
+	-- such strategy is useful to prevent raising Constraint Errors, but it is not very helpful while constructing a list 
 	-- because it is necessary to introduce some other technique for identifying its end	
+	-- Extra: A null exclusion can also appear in a function result
 		
 	-- for creating a new record and adding it to the beginning of a list it is possible to use the following statement 
 	-- wrapped into a general procedure
