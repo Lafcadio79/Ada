@@ -1,0 +1,79 @@
+V "GNAT Lib v2020"
+M P W=b
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U main%b		main.adb		d2f51d9f NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200228061810 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20200228061810 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20200228061810 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D main.adb		20210317111342 7fe9f5ee main%b
+D system.ads		20200228061810 32a08138 system%s
+D s-conca2.ads		20200228061810 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-imgrea.ads		20200228061810 9f9b9792 system.img_real%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 4 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 2r6 5r13 6r13
+X 4 a-numeri.ads
+16K13*Numerics 32e17 13|2r10 6r17
+X 5 a-nuelfu.ads
+18K22*Elementary_Functions[6|39] 13|2w19 6r26
+X 6 a-ngelfu.ads
+94V13*Sin{float} 13|25r33[5|18]
+X 9 a-textio.ads
+57K13*Text_IO 727e16 13|1w10 5r17
+264U14*New_Line 13|47s9
+465U14*Put 13|42s17 51s17
+508U14*Put_Line 13|38s9
+X 13 main.adb
+4U11*Main 4b11 54l5 54t9
+9A14 Vector(float)<integer> 16r70 29r14
+12P14 Math_Function(float) 12>48 16r45 25r16
+12f48 F{float}
+16U19 Iterate 16b19 16>27 16=60 22l13 22t20 45s9
+16p27 Func{12P14} 20r33
+16a60 V{9A14} 18r26 20m25 20r38
+18i21 I{integer} 20r27 20r40
+25p9 Do_It{12P14} 35r14 45r17
+27f9 X{float} 35m9 38r18
+27f12 Theta{float} 32m9 35r20
+29a9 V1{9A14} 41r18 42r21 45m24 45r24 50r18 51r21
+41i13 I{integer} 42r24
+50i13 I{integer} 51r24
+
