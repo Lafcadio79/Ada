@@ -1,0 +1,28 @@
+V "GNAT Lib v2020"
+P ZX
+
+RN
+RV NO_ELABORATION_CODE
+
+U stack%b		stack.adb		d4c1e8e9 OO PK
+Z interfaces%s		interfac.ads		interfac.ali
+
+U stack%s		stack.ads		6d9b5cac EE NE OO PK
+
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D stack.ads		20210406081530 6d9b5cac stack%s
+D stack.adb		20210406082708 b95ab445 stack%b
+D system.ads		20200228061810 32a08138 system%s
+G a e
+G c Z s b [push stack 5 19 none]
+G c Z s b [pop stack 7 18 none]
+X 2 stack.ads
+3K9*Stack 9l5 9e10 3|3b14 31l5 31t10
+5U19*Push 5>24 3|12b19 16l13 16t17
+5i24 X{integer} 3|12b24 15r27
+7V18*Pop{integer} 3|21b18 25l13 25t16
+X 3 stack.adb
+5N9 Max 6r23 7r33
+6a9 S(integer) 15m17 24r24
+7i9 Top{integer} 14m17 14r24 15r19 23m17 23r24 24r26 29m9
+

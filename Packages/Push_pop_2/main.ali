@@ -1,0 +1,59 @@
+V "GNAT Lib v2020"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U main%b		main.adb		5647b45a NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W stack%s		stack.adb		stack.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D main.adb		20210406083112 95283d9b main%b
+D stack.ads		20210406081530 6d9b5cac stack%s
+D system.ads		20200228061810 32a08138 system%s
+D s-conca2.ads		20200228061810 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-imgint.ads		20200228061810 02dbe0c2 system.img_int%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 15 11 none]
+G r c none [main standard 15 11 none] [push stack 5 19 none]
+G r c none [main standard 15 11 none] [pop stack 7 18 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|13r6 17r13
+X 6 a-textio.ads
+57K13*Text_IO 727e16 10|13w10 17r17
+465U14*Put 10|29s17
+X 10 main.adb
+15U11*Main 15b11 32l5 32t9
+23i13 I{integer} 24r22
+28i13 I{integer}
+X 11 stack.ads
+3K9*Stack 10|12w6 16r13 11|9e10
+5U19*Push 10|24s17
+7V18*Pop{integer} 10|29s21
+
