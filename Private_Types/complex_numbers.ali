@@ -1,0 +1,56 @@
+V "GNAT Lib v2020"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+
+U complex_numbers%b	complex_numbers.adb	0778f6ad NE OO PK
+
+U complex_numbers%s	complex_numbers.ads	eb0cd175 EE NE OO PK
+
+D complex_numbers.ads	20210406134116 eb0cd175 complex_numbers%s
+D complex_numbers.adb	20210406135302 ec7427d8 complex_numbers%b
+D system.ads		20200228061810 32a08138 system%s
+G a e
+G c Z s b [Oadd complex_numbers 7 18 none]
+G c Z s b [Osubtract complex_numbers 8 18 none]
+G c Z s b [Oadd complex_numbers 9 18 none]
+G c Z s b [Osubtract complex_numbers 10 18 none]
+G c Z s b [Omultiply complex_numbers 11 18 none]
+G c Z s b [Odivide complex_numbers 12 18 none]
+G c Z s b [cons complex_numbers 13 18 none]
+G c Z s b [re_part complex_numbers 14 18 none]
+G c Z s b [im_part complex_numbers 15 18 none]
+G c Z s s [complexIP complex_numbers 22 22 none]
+X 1 complex_numbers.ads
+2K9*Complex_Numbers 22E22 27e12 2|3b14 54l5 54t20
+5R14*Complex 6r21 7r25 7r41 8r25 8r41 9r28 9r44 10r28 10r44 11r28 11r44 12r28
+. 12r44 13r43 14r29 15r29 22c22 25e35 26r29 2|8r25 8r41 13r25 13r41 19r28
+. 19r44 24r28 24r44 29r28 29r44 34r28 34r44 39r43 44r29 49r29
+6r9*I{5R14} 26c17
+7V19*"+"{5R14} 7>22 2|8b19 11l14 11t16
+7r22 X{5R14} 2|8b22 10r24
+8V19*"-"{5R14} 8>22 2|13b19 16l14 16t16
+8r22 X{5R14} 2|13b22 15r26 15r33
+9V19*"+"{5R14} 9>22 9>25 2|19b19 22l14 22t16
+9r22 X{5R14} 2|19b22 21r24 21r37
+9r25 Y{5R14} 2|19b25 21r31 21r44
+10V19*"-"{5R14} 10>22 10>25 2|24b19 27l14 27t16
+10r22 X{5R14} 2|24b22 26r24 26r37
+10r25 Y{5R14} 2|24b25 26r31 26r44
+11V19*"*"{5R14} 11>22 11>25 2|29b19 32l14 32t16
+11r22 X{5R14} 2|29b22 31r24 31r37
+11r25 Y{5R14} 2|29b25 31r31 31r44
+12V19*"/"{5R14} 12>22 12>25 2|34b19 37l14 37t16
+12r22 X{5R14} 2|34b22 36r24 36r37
+12r25 Y{5R14} 2|34b25 36r31 36r44
+13V18*Cons{5R14} 13>23 13>26 2|39b18 42l13 42t17
+13f23 R{float} 2|39b23 41r24
+13f26 I{float} 2|39b26 41r27
+14V18*Re_Part{float} 14>26 2|44b18 47l13 47t20
+14r26 X{5R14} 2|44b26 46r24
+15V18*Im_Part{float} 15>26 2|49b18 52l13 52t20
+15r26 X{5R14} 2|49b26 51r24
+24f33*Re{float} 2|15r28 21r26 21r33 26r26 26r33 31r26 31r33 36r26 36r33 46r26
+24f37*Im{float} 2|15r35 21r39 21r46 26r39 26r46 31r39 31r46 36r39 36r46 51r26
+
