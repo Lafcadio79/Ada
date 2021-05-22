@@ -4,6 +4,7 @@
 -- |            											  |
 -- -----------------------------------------------------------
 
+-- ONGOING EXAMPLE
 
 -- Simple OOP example
 -- The Clerks program provides to insert, delete, and modify the list of clerks of a store.
