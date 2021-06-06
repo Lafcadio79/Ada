@@ -1,7 +1,7 @@
 -- -----------------------------------------------------------
 -- |                                                          |
 -- |               Object Oriented Programming                |
--- |			         (Type extension)                     |
+-- |			 (Type extension)                     |
 -- |                                                          |
 -- -----------------------------------------------------------
 
@@ -27,7 +27,7 @@ package Clerks is
 	-- as structured so far, the clerk works just one day (you need to define an array of Workday)
 	type Clerk is new Human with
 		record
-			ID		: Integer;
+			ID	: Integer;
 			WDays	: Workday;
 		end record;
 		
@@ -38,5 +38,3 @@ package Clerks is
 	function Get_New_Clerk return Clerk;
 	
 end Clerks;
-
-
