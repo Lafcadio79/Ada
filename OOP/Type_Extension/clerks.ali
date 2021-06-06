@@ -1,0 +1,151 @@
+V "GNAT Lib v2020"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCHING_CALLS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_ELABORATION_CODE
+
+U clerks%b		clerks.adb		7b0b9899 OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_6%s	s-conca6.adb		s-conca6.ali
+Z system.img_char%s	s-imgcha.adb		s-imgcha.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W utility%s		utility.adb		utility.ali
+
+U clerks%s		clerks.ads		963d6d4a EE OO PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W humans%s		humans.adb		humans.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D clerks.ads		20210606170412 0d244dd2 clerks%s
+D clerks.adb		20210606170438 c24e84de clerks%b
+D humans.ads		20210606170418 35edf5f5 humans%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D system.ads		20200228061810 32a08138 system%s
+D s-conca2.ads		20200228061810 02a0d7d0 system.concat_2%s
+D s-conca6.ads		20200228061810 d2c72db2 system.concat_6%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-imgcha.ads		20200228061810 9c3458e7 system.img_char%s
+D s-imenne.ads		20200228061810 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20200228061810 02dbe0c2 system.img_int%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20200228061810 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20200424050626 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+D utility.ads		20210606170424 b4615195 utility%s
+G a e
+G c Z s b [get_id clerks 34 18 none]
+G c Z s b [print_clerk clerks 36 19 none]
+G c Z s b [get_new_clerk clerks 38 18 none]
+G c Z s s [workday_tableIP clerks 25 14 none]
+G c Z s s [clerkDA clerks 28 14 none]
+G c Z s s [clerkDF clerks 28 14 none]
+G c Z s s [clerkIP clerks 28 14 none]
+G r c none [get_new_clerk clerks 38 18 none] [get_string utility 20 18 none]
+G r c none [get_new_clerk clerks 38 18 none] [get_integer utility 22 18 none]
+G r c none [get_new_clerk clerks 38 18 none] [get_character utility 18 18 none]
+G r s human [clerkIP clerks 28 14 none] [humanIP humans 41 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 8|17r6 21r13
+X 6 a-textio.ads
+57K13*Text_IO 727e16 8|17w10 21r17
+264U14*New_Line 9|80s17 89s17
+465U14*Put 9|45s17 46s17 48s17 53s17 54s17 55s17 56s17 57s17
+508U14*Put_Line 9|47s17 49s17 50s17 58s17 59s17 81s17 82s17 83s17 84s17 85s17
+. 86s17 87s17 88s17
+X 8 clerks.ads
+19K9*Clerks 40l5 40e11 9|18b14 93l5 93t11
+23E17*Workday{10|24E14} 25r60 31r35 9|42r27 61r93 77r20
+25A14*Workday_Table(23E17)<integer>
+28R14*Clerk<10|41R14> 32e27 34p18 34r28 36p19 36r34 38p18 38r39 9|21r28 29r39
+. 68r34 10|51p18
+30i25*ID{integer} 9|25r26
+31e25*WDays{23E17} 9|77r41
+34V18*Get_ID{integer} 34>25 9|21b18 27l13 27t19 87s40
+34r25 C{28R14} 9|21b25 25r24
+36U19*Print_Clerk 36>31 9|68b19 91l13 91t24
+36r31 C{28R14} 9|68b31 71r35 72r35 73r40 73r53 73r68 74r35 75r35 76r35 77r39
+. 87r47
+38V18*Get_New_Clerk{28R14} 9|29b18 65l13 65t26
+X 9 clerks.adb
+31p17 Name{10|20P14} 45m66 63r25
+32p17 Surname{10|20P14} 46m50 63r31
+33i17 Age{10|28I17} 54m50 63r58
+34e17 Gender{character} 55m50 63r63
+35p17 IDCode{10|20P14} 56m58 63r71
+36i17 Day{integer} 48m50 63r41
+37i17 IMonth{integer} 51m82 52r104
+38e17 Month{10|22E14} 52m82 63r45
+39i17 Year{integer} 53m50 63r51
+40i17 ID{integer} 57m54 63r79
+41i17 IWDays{integer} 60m82 61r105
+42e17 WDays{8|23E17} 61m82 63r83
+71p17 N{10|20P14} 81r41
+72p17 S{10|20P14} 82r41
+73r17 B{10|34R14} 83r40 83r62 83r85
+74i17 A{10|28I17} 84r40
+75e17 G{character} 85r41
+76p17 I{10|20P14} 86r41
+77e17 W{8|23E17} 88r41
+X 10 humans.ads
+15K9*Humans 8|16w6 20r13 10|53e11
+20P14*String_Ref(string) 9|31r27 32r27 35r27 71r20 72r20 76r20
+22E14*Months 9|38r27 52r93 10|22e84
+24E14*Weekdays 8|23r28 10|24e61
+24n27*Mon{24E14} 8|23r43
+24n47*Fri{24E14} 8|23r50
+28I17*Sub_Int{integer} 9|33r35 74r20
+34R14*Date 9|73r20 10|39e27
+36i25*Day{integer} 9|73r48 83r42
+37e25*Month{22E14} 9|73r61 83r64
+38i25*Year{integer} 9|73r76 83r87
+41R14*Human 8|28r27 10|49e27
+43p25*Name{20P14} 9|71r37
+44p25*Surname{20P14} 9|72r37
+45r25*Birth{34R14} 9|73r42 73r55 73r70
+46i25*Age{28I17} 9|74r37
+47e25*Gender{character} 9|75r37
+48p25*IDCode{20P14} 9|76r37
+51V18*CurrentAge{28I17}
+X 33 utility.ads
+16K9*Utility 9|16w6 19r13 33|24e12
+18V18*Get_Character{character} 9|55s61
+20V18*Get_String{string} 9|45s89 46s73 56s81
+22V18*Get_Integer{integer} 9|48s61 51s93 53s61 54s61 57s65 60s93
+

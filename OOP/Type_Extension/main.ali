@@ -1,0 +1,64 @@
+V "GNAT Lib v2020"
+M P W=b
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+
+U main%b		main.adb		e362e585 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W clerks%s		clerks.adb		clerks.ali
+W humans%s		humans.adb		humans.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D clerks.ads		20210606170412 0d244dd2 clerks%s
+D humans.ads		20210606170418 35edf5f5 humans%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D main.adb		20210529144752 755f88cf main%b
+D system.ads		20200228061810 32a08138 system%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-stratt.ads		20200424050626 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 7 11 none]
+G r s clerk [main standard 7 11 none] [clerkIP clerks 28 14 none]
+G r c none [main standard 7 11 none] [get_new_clerk clerks 38 18 none]
+G r c none [main standard 7 11 none] [print_clerk clerks 36 19 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|4r6 10r13
+X 6 a-textio.ads
+57K13*Text_IO 727e16 12|4w10 10r17
+X 8 clerks.ads
+19K9*Clerks 40e11 12|3w6 9r13
+28R14*Clerk<9|41R14> 32e27 12|12r12
+36U19*Print_Clerk 12|18s9
+38V18*Get_New_Clerk{28R14} 12|16s14
+X 9 humans.ads
+15K9*Humans 53e11 12|2w6 8r13
+X 12 main.adb
+7U11*Main 7b11 20l5 20t9
+12r9 C{8|28R14} 16m9 18r21
+
