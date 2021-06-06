@@ -1,7 +1,7 @@
 -- -----------------------------------------------------------
 -- |                                                          |
 -- |               Object Oriented Programming                |
--- |			         (Type extension)                     |
+-- |			 (Type extension)                     |
 -- |                                                          |
 -- -----------------------------------------------------------
 
@@ -12,6 +12,7 @@
 
 -- Furthermore, the notion of class wide type is strictly related to the concept of polimorphism
 -- a paradigm that will be dealt with later on
+
 package Humans is
 	------------------------
 	-- Types and subtypes --
@@ -43,7 +44,7 @@ package Humans is
 			Name    : String_Ref;
 			Surname : String_Ref;
 			Birth   : Date;
-			Age		: Sub_Int;
+			Age	: Sub_Int;
 			Gender  : Character;
 			IDCode  : String_ref;
 		end record;
