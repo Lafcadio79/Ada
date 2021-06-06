@@ -1,7 +1,7 @@
 -- -----------------------------------------------------------
 -- |                                                          |
 -- |               Object Oriented Programming                |
--- |			         (Type extension)                     |
+-- |			 (Type extension)                     |
 -- |                                                          |
 -- -----------------------------------------------------------
 
@@ -30,35 +30,35 @@ package body Clerks is
 	
 		Name    : String_Ref;
 		Surname : String_Ref;
-		Age		: Sub_Int;
+		Age	: Sub_Int;
 		Gender  : Character;
 		IDCode  : String_ref;
 		Day     : Integer range 1 .. 31;
 		IMonth  : Integer range 1 .. 12;
 		Month   : Months;
 		Year    : Integer range 1 .. 99999;
-		ID		: Integer;
+		ID	: Integer;
 		IWDays	: Integer range 1 .. 5;
 		WDays	: Workday;
 	begin
 		
-		Put("Name: "); 				 	 Name    := new String'(Get_String);
+		Put("Name: ");		 	 Name    := new String'(Get_String);
 		Put("Surname: ");            	 Surname := new String'(Get_String);
 		Put_Line("Birth (d-m-y): ");
 		Put(" Day >");               	 Day     := Get_Integer;
 		Put_Line(" Month >");
 		Put_Line("  Jan => 0 - ... - Dec => 11");
-										 IMonth  := Get_Integer;
-										 Month   := Months'Val(IMonth);
+						 IMonth  := Get_Integer;
+						 Month   := Months'Val(IMonth);
 		Put(" Year >");              	 Year    := Get_Integer;
 		Put("Age: ");                	 Age     := Get_Integer;
 		Put("Gender [M/F]: ");       	 Gender  := Get_Character;
-		Put("ID code: "); 	         	 IDCode  := new String'(Get_String);
-		Put("ID clerk: "); 	             ID      := Get_Integer;
+		Put("ID code: "); 	         IDCode  := new String'(Get_String);
+		Put("ID clerk: "); 	         ID      := Get_Integer;
 		Put_Line("Working days > ");
 		Put_Line("  Mon => 0 - ... - Fri => 4");
-										 IWDays  := Get_Integer;
-										 WDays   := Workday'Val(IWDays); 
+						 IWDays  := Get_Integer;
+						 WDays   := Workday'Val(IWDays); 
 										 
 		return (Name, Surname, (Day,Month,Year), Age, Gender, IDCode, ID, WDays);
 				
@@ -70,11 +70,11 @@ package body Clerks is
 		-- declarative part
 		N: String_ref  := C.Name;
 		S: String_ref  := C.Surname;
-		B: Date 	   := (C.Birth.Day, C.Birth.Month, C.Birth.Year);
+		B: Date        := (C.Birth.Day, C.Birth.Month, C.Birth.Year);
 		A: Sub_Int     := C.Age;
 		G: Character   := C.Gender;
 		I: String_ref  := C.IDCode;
-		W: Workday	   := C.WDays;
+		W: Workday     := C.WDays;
 		
 	begin
 		New_Line(2);
